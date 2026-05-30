@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1160</width>
+    <height>373</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1160</width>
+    <height>373</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1160</width>
+    <height>373</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Show do Milhão Finances</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>imgs/icone.ico</normaloff>imgs/icone.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-70</y>
+      <width>1311</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>imgs/templante premiação final um milhão.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botaoInicio">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>290</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+font: 87 16pt &quot;Arial Black&quot;;
+background-color: white;
+border: 2px solid yellow;
+color: black;
+}
+
+QPushButton:hover {
+border: 5px solid white;
+background-color: yellow;
+color: black
+}
+
+QPushButton:pressed{
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Início</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="premiacao">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>150</y>
+      <width>381</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font: 87 32pt &quot;Arial Black&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>R$</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

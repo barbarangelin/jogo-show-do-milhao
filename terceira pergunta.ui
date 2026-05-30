@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1160</width>
+    <height>373</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1160</width>
+    <height>373</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1160</width>
+    <height>373</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Show do Milhão Finances</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>imgs/icone.ico</normaloff>imgs/icone.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-80</y>
+      <width>1491</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>imgs/templante pergunta três.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botaoParar">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>280</y>
+      <width>211</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: rgb(214, 214, 214);
+font: 87 16pt &quot;Arial Black&quot;;
+color: black;
+border-radius: 15px;
+border: 2px solid white;
+}
+
+QPushButton:hover {
+border: 5px solid red;
+color: red;
+}
+
+QPushButton:clicked {
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Parar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>631</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font: 87 16pt &quot;Arial Black&quot;;
+color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Qual das seguintes empresas está com ações em baixa?</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>120</y>
+      <width>521</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font: 87 16pt &quot;Arial Black&quot;;
+color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Vale (Rio de Janeiro)</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>210</y>
+      <width>521</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font: 87 16pt &quot;Arial Black&quot;;
+color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Oi (Rio de Janeiro)</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="opcaoUm">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>110</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: rgb(214, 214, 214);
+font: 87 16pt &quot;Arial Black&quot;;
+color: black;
+border-radius: 15px;
+border: 2px solid white;
+}
+
+QPushButton:hover {
+border: 5px solid green;
+color: green;
+}
+
+QPushButton:clicked {
+
+}</string>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="opcaoDois">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>200</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: rgb(214, 214, 214);
+font: 87 16pt &quot;Arial Black&quot;;
+color: black;
+border-radius: 15px;
+border: 2px solid white;
+}
+
+QPushButton:hover {
+border: 5px solid green;
+color: green;
+}
+
+QPushButton:clicked {
+
+}</string>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>290</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font: 87 14pt &quot;Arial Black&quot;;
+color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>R$25.000</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>290</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font: 87 14pt &quot;Arial Black&quot;;
+color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>R$50.000</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>290</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+font: 87 14pt &quot;Arial Black&quot;;
+color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>R$200.000</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
