@@ -35,4 +35,11 @@ Na verificação do gabarito é onde exatamente foi aplicado a regressão linear
 A cada pergunta respondida corretamente o jogador avança no jogo e fica mais perto da pergunta de um milhão de reais.
 
 # Como utilizar
-Baixe o repositório e abra a pasta em seu editor de código predileto. Mas tenha certeza de ter todas as bibliotecas instaladas previamente em sua máquina.
+Baixe o repositório e abra a pasta em seu editor de código predileto. Mas tenha certeza de ter todas as seguintes bibliotecas instaladas previamente em sua máquina:
+
+- $\color{red}{PyQt6}$
+- $\color{red}{Yahoo \space finances}$ 
+- $\color{red}{Pandas}$ 
+- $\color{red}{Numpy}$ 
+- $\color{red}{Scikit-learn}$ 
+- $\color{red}{Matplotlib}$ 
