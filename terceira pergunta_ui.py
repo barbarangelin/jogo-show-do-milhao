@@ -139,7 +139,7 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Show do Milhão Finances"))
         self.botaoParar.setText(_translate("MainWindow", "Parar"))
-        self.label_2.setText(_translate("MainWindow", "Qual das seguintes empresas está com ações em baixa?"))
+        self.label_2.setText(_translate("MainWindow", "Pensando como um analista financeiro, qual ação você nao deveria comprar?"))
         self.label_3.setText(_translate("MainWindow", "Vale (Rio de Janeiro)"))
         self.label_4.setText(_translate("MainWindow", "Oi (Rio de Janeiro)"))
         self.opcaoUm.setText(_translate("MainWindow", "1"))

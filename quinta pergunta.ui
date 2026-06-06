@@ -93,7 +93,7 @@ color: white;
 }</string>
     </property>
     <property name="text">
-     <string>Você sabe a resposta? Qual das próximas duas empresas tem as ações mais valiosas?</string>
+     <string>Você é mesmo um bom analista financeiro? Qual das seguintes ações é mais vantajoso comprar?</string>
     </property>
     <property name="wordWrap">
      <bool>true</bool>

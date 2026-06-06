@@ -59,8 +59,8 @@ def respostaErrada(interface_atual):
     alternarInterface(interface_atual, premiacaoFinalInterface)
 
 def quintaPerguntaInterface():
-    mostrar_resposta("INTB3.SA", "BRL")
-    mostrar_resposta("AMZN", "USD")
+    mostrar_resposta("MCD", "USD")
+    mostrar_resposta("KO", "USD")
     efeito_sonoro_show_do_milhao("pergunta_de_um_milhao",False)
     incrementarPremio(300000)
     global quintaPergunta
@@ -83,7 +83,7 @@ def quartaPerguntaInterface():
     quartaPergunta.botaoParar.clicked.connect(lambda: alternarInterface(quartaPergunta,premiacaoFinalInterface))
 
 def terceiraPerguntaInterface():
-    mostrar_resposta("BYDDF", "USD")
+    mostrar_resposta("1211.HK", "HKD")
     mostrar_resposta("TSLA", "USD")
     efeito_sonoro_show_do_milhao("certa-resposta",False)
     incrementarPremio(40000)
@@ -96,14 +96,14 @@ def terceiraPerguntaInterface():
 
 def segundaPerguntaInterface():
     mostrar_resposta("ELF", "USD")
-    mostrar_resposta("POSI3.SA", "EUR")
+    mostrar_resposta("OR.PA", "EUR")
     efeito_sonoro_show_do_milhao("certa-resposta",False)
     incrementarPremio(10000)
     global segundaPergunta
     segundaPergunta = uic.loadUi("segunda pergunta.ui")
     segundaPergunta.show()
-    segundaPergunta.opcaoUm.clicked.connect(lambda: alternarInterface(segundaPergunta,terceiraPerguntaInterface))
-    segundaPergunta.opcaoDois.clicked.connect(lambda: respostaErrada(segundaPergunta))
+    segundaPergunta.opcaoUm.clicked.connect(lambda: respostaErrada(segundaPergunta))
+    segundaPergunta.opcaoDois.clicked.connect(lambda: alternarInterface(segundaPergunta,terceiraPerguntaInterface))
     segundaPergunta.botaoParar.clicked.connect(lambda: alternarInterface(segundaPergunta,premiacaoFinalInterface))
 
 def primeiraPerguntaInterface ():

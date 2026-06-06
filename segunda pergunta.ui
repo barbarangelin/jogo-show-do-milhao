@@ -88,12 +88,12 @@ QPushButton:clicked {
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel{
-font: 87 16pt &quot;Arial Black&quot;;
+font: 87 14pt &quot;Arial Black&quot;;
 color: white;
 }</string>
     </property>
     <property name="text">
-     <string>As ações de qual empresa automotiva está em alta?</string>
+     <string>Como um analista financeiro, as ações de qual empresa automotiva você compraria para evitar prejuízos?</string>
     </property>
     <property name="wordWrap">
      <bool>true</bool>

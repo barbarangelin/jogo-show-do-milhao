@@ -93,7 +93,7 @@ color: white;
 }</string>
     </property>
     <property name="text">
-     <string>Qual das seguintes empresas está com ações em baixa?</string>
+     <string>Pensando como um analista financeiro, qual ação você nao deveria comprar?</string>
     </property>
     <property name="wordWrap">
      <bool>true</bool>

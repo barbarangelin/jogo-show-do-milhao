@@ -47,7 +47,7 @@ class Ui_MainWindow(object):
         self.label_2 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_2.setGeometry(QtCore.QRect(20, 20, 631, 81))
         self.label_2.setStyleSheet("QLabel{\n"
-"font: 87 16pt \"Arial Black\";\n"
+"font: 87 14pt \"Arial Black\";\n"
 "color: white;\n"
 "}")
         self.label_2.setWordWrap(True)
@@ -139,9 +139,9 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Show do Milhão Finances"))
         self.botaoParar.setText(_translate("MainWindow", "Parar"))
-        self.label_2.setText(_translate("MainWindow", "Entre as seguintes empresas, qual tem ações em alta?"))
-        self.label_3.setText(_translate("MainWindow", "Intelbras (São José)"))
-        self.label_4.setText(_translate("MainWindow", "Amazon (Seattle)"))
+        self.label_2.setText(_translate("MainWindow", "Qual das seguintes empresas alimentícias vale a pena comprar ações? Responda como um analista financeiro"))
+        self.label_3.setText(_translate("MainWindow", "McDonald\'s (Illinois)"))
+        self.label_4.setText(_translate("MainWindow", "Coca-Cola Company (Geórgia)"))
         self.opcaoUm.setText(_translate("MainWindow", "1"))
         self.opcaoDois.setText(_translate("MainWindow", "2"))
         self.label_5.setText(_translate("MainWindow", "R$100.000"))

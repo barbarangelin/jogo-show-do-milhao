@@ -88,12 +88,12 @@ QPushButton:clicked {
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel{
-font: 87 16pt &quot;Arial Black&quot;;
+font: 87 14pt &quot;Arial Black&quot;;
 color: white;
 }</string>
     </property>
     <property name="text">
-     <string>Entre as seguintes empresas, qual tem ações em alta?</string>
+     <string>Qual das seguintes empresas alimentícias vale a pena comprar ações? Responda como um analista financeiro</string>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -115,7 +115,7 @@ color: white;
 }</string>
     </property>
     <property name="text">
-     <string>Intelbras (São José)</string>
+     <string>McDonald's (Illinois)</string>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
@@ -137,7 +137,7 @@ color: white;
 }</string>
     </property>
     <property name="text">
-     <string>Amazon (Seattle)</string>
+     <string>Coca-Cola Company (Geórgia)</string>
     </property>
     <property name="wordWrap">
      <bool>true</bool>
